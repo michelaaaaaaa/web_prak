@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        background: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        background-image: url('bg.jpg');
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('bg.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .card {
+        background: rgb(189, 0, 0);
+        width: 350px;
+        padding: 25px;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        backdrop-filter: blur(10px);
+    }
+
+    .profile-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin: 10px 0 5px;
+    }
+
+    .desc {
+        font-size: 14px;
+        color: #ccc;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 8px;
+        background: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .section-title {
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .video-box iframe{
+        background: black;
+        border-radius: 10px;
+        margin: 10px 0;
+        overflow: hidden;
+         width: 100%;
+        border-radius: 10px;
+    }
+
+    .text {
+        font-size: 15px;
+        color: #e9e9e9;
+        font-weight: bold;
+    }
+    .icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    font-size: 28px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+}
+
+.icons a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #ffcccc;
+}
+</style>
+</head>
+<body>
+   <div class="card">
+    <img src="https://cdn.brandfetch.io/domain/popmart.com/fallback/lettermark/theme/dark/h/400/w/400/icon?c=1bfwsmEH20zzEfSNTed" class="profile-img">
+
+    <h2>POP MART</h2>
+    <p class="desc">Let POP MART light up your every #popmoment ✨</p>
+    
+    <p class="section-title">✨ Stay up to date on our latest news and products ✨</p>
+    <button class="btn" onclick="window.open('https://x.com/POPMARTGlobal')">New Release</button>
+    <button class="btn" onclick="window.open('https://www.popmart.com/gb?srsltid=AfmBOor5s4Y2CU8SArftPdFiRIO-ydeGzZB4-08Pl_jT3Ih1PtN1bs3r')">Our official Website</button>
+    <button class="btn" onclick="window.open('https://shopee.co.id/popmartlocal.id')">Official Store Shopee</button>
+    <div class="video-box">
+        <iframe 
+        width="100%" 
+        height="200" 
+        src="https://www.youtube.com/embed/fXwgUffvlcM" 
+        title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    </div>
+    <p class="text">✌ Follow us on your favourite platform✌</p>
+     <div class="icons">
+       <a href="https://www.instagram.com/popmart/?hl=id" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/popmartglobal" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.tiktok.com/@popmartglobal" target="_blank">
+        <i class="fab fa-tiktok"></i>
+    </a>
+    <a href="https://www.tiktok.com/@popmartglobal" target="_blank">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/UCkjDQKykLwCUwAwgP5WKRKg" target="_blank">
+        <i class="fab fa-youtube"></i>
+    </a>
+</div> 
+</body>
+</html>
